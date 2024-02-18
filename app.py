@@ -4,7 +4,7 @@ import streamlit as st
 
 car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 
-st.header("Graficós de vehículos")
+st.header("Creación de gráficos de anuncios de venta de vehículos")
 
 build_histogram = st.checkbox('Construir un histograma')
 
