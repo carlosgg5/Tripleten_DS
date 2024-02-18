@@ -28,7 +28,7 @@ if build_scatter: # si la casilla de verificación está seleccionada
     st.write("Creación de un grafico de dispersion para el conjunto de datos de anuncios de venta de coches")
 
     #crear un gráfico de dispersion
-    fig_2 = px.scatter(car_data, x="model_year", y="price", colors="type")
+    fig_2 = px.scatter(car_data, x="model_year", y="price", color="type")
 
     # mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig_2, use_container_width=True)    
